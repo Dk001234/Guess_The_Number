@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WON</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="container">
+    <h1>Congrates! you won the Game</h1>
+    <button id="click" class="button" >TRY AGAIN</button>
+    <br>
+    <button id="exit">EXIT</button>
+    </div>
+    <Script>
+        var button=document.getElementById("click");
+        button.onclick=()=>{
+            location.href="./game.html";
+        }
+        var exit=document.getElementById("exit");
+        exit.onclick=()=>{
+            location.href="./index.html";
+        }
+    </Script>
+</body>
+</html>

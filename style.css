@@ -1,0 +1,59 @@
+.container{
+    text-align: center;
+    background-color:blue;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    padding: 0 20px;
+}
+.logo{
+    font-size: 5em;
+    text-shadow: -5px -5px 0 white,
+    2px -2px white,
+    -2px 2px white,
+    2px 2px white;
+}
+.button{
+    background-color: orange;
+    color: white;
+    height: 30px;
+    width: 140px;
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+    padding: 10px 15px;
+    font-weight: 800;
+    
+}
+.button:hover{
+    background-color: deeppink;
+
+}
+h1{
+    font-size: 2em;
+}
+input{
+    width: 300px;
+    height: 3em;
+    margin: 30px;
+}
+#input-container{
+    display: flex;
+    text-align: center;
+    font-size: 2em;
+    flex-wrap: wrap;
+}
+#message{
+    display: none;
+    font-size: 2em;
+    text-align: center;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+#lives{
+    font-size: 50px;
+}
